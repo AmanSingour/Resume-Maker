@@ -20,7 +20,7 @@ function get()
 	localStorage.setItem("mail",mail);
 	localStorage.setItem("address",address);
 	localStorage.setItem("skill",skill);
-	window.open("../html/resume.html","_blank");
+	window.open("resume.html","_blank");
 }
 function put(){
 		Name=localStorage.getItem("name");
